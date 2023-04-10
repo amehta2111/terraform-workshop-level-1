@@ -1,4 +1,4 @@
-resource "random_string" "password" {
+resource "random_password" "password" {
   length  = 32
   upper   = true
   numeric = true
@@ -18,7 +18,7 @@ resource "aws_secretsmanager_secret_version" "sversion" {
   secret_string = <<EOF
    {
     "username": "${var.rds_username}",
-    "password": "${random_string.password.result}"
+    "password": "${random_password.password.result}"
    }
 EOF
 }
