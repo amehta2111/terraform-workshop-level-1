@@ -8,7 +8,7 @@ resource "random_string" "password" {
 # Creating a AWS secret for database master account (Masteraccoundb)
 
 resource "aws_secretsmanager_secret" "secretmasterDB" {
-  name = "Masteraccoundb"
+  name = var.secret_name
 }
 
 # Creating a AWS secret versions for database master account (Masteraccoundb)

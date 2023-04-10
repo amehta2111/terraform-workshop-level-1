@@ -1,2 +1,7 @@
 region   = "ap-south-1"
 vpc_cidr = "172.16.0.0/16"
+ami = "ami-07d3a50bd29811cd1"
+pub_sub1_cidr_block = "172.16.1.0/24"
+pub_sub2_cidr_block = "172.16.2.0/24"
+prv_sub1_cidr_block = "172.16.3.0/24"
+prv_sub2_cidr_block = "172.16.4.0/24"

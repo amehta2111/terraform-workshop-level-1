@@ -6,6 +6,10 @@ variable "keyname" {
   default = "terraform-workshop-vm"
   type    = string
 }
+variable "secret_name" {
+  default = "Masteraccoundb"
+  type    = string
+}
 variable "region" {
   type        = string
   default     = "ap-south-1"
@@ -35,7 +39,6 @@ variable "prv_sub2_cidr_block" {
   type    = string
   default = "172.16.4.0/24"
 }
-
 
 variable "sg_name" {
   type    = string
