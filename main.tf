@@ -1,8 +1,3 @@
-# Configure the AWS Provider
-provider "aws" {
-  region = var.region
-}
-
 resource "random_string" "password" {
   length  = 32
   upper   = true
