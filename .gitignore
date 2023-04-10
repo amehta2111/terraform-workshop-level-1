@@ -1,0 +1,22 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.lock.hcl
+
+*.envrc
+.idea
+.vscode
+cloud-native-open-foundation.iml
+
+
+# Ignore CLI configuration files
+terraform.rc
+
+**/kubeconfig_*
+**/.envrc
+**/.envrc.uat
+
+**/tf_state_bucket_creds
