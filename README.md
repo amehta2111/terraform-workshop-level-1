@@ -52,7 +52,7 @@ No modules.
 | [aws_subnet.pub_sub1](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_subnet.pub_sub2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_vpc.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc) | resource |
-| [random_string.password](https://registry.terraform.io/providers/hashicorp/random/3.4.3/docs/resources/string) | resource |
+| [random_password.password](https://registry.terraform.io/providers/hashicorp/random/3.4.3/docs/resources/password) | resource |
 | [aws_secretsmanager_secret.secretmasterDB](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/secretsmanager_secret) | data source |
 | [aws_secretsmanager_secret_version.creds](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/secretsmanager_secret_version) | data source |
 
